@@ -10,3 +10,19 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.TotalCounter{
+    justify-content: center;
+    background-color: black;
+
+}
+
+.TotalCounter div{
+    background: rgb(75, 75, 75);
+    color: white;
+    font-size: 100px;
+    padding: 50px;
+    justify-content: center;
+    margin: 4px;
+
+}
