@@ -1,5 +1,4 @@
 import React from "react";
-
 import SimpleCounter from "./counter";
 
 // //create your first component
