@@ -1,12 +1,17 @@
 import React from "react";
-import SimpleCounter from "./counter";
+import Counter from "./Counter";
 
 // //create your first component
 
-const Home = () => {
+const Home = ({ digitOne, digitTwo, digitThree, digitFour }) => {
 	return (
 		<div>
-			<SimpleCounter />
+			<Counter
+				seconds={digitOne}
+				minutes={digitTwo}
+				hours={digitThree}
+				days={digitFour}
+			/>
 		</div>
 	);
 };
